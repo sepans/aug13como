@@ -1452,7 +1452,7 @@ meta.foundation-mq-topbar {
     position: relative;
     width: auto;
     -webkit-transition: left 300ms ease-out;
-    transition: left 300ms ease-out
+    transition: left 300ms ease-out;
 }
 .top-bar-section ul {
     padding: 0;
@@ -6496,7 +6496,8 @@ input.button.ghost {
     bottom: 0;
     width: 100%;
     z-index: 998;
-    border-top: 0 solid #ccc
+    border-top: 0 solid #ccc;
+    opacity: 0; /* temp */
 }
 .cookie-header .columns:last-child {
     text-align: center
@@ -6691,14 +6692,20 @@ nav.top-bar .logo-wrapper .logo a.logo-link.small-version {
 @media only screen and (min-width: 64.063em) {
     .left-side-nav {
         display: inline-block;
-        text-align: right
+        text-align: right;
+
+        display: none; /* temp */
+
     }
     .left-side-nav a:first-child {
         margin-left: 0!important
     }
     .right-side-nav {
         display: inline-block;
-        text-align: left
+        text-align: left;
+
+        display: none; /* temp */
+
     }
     .right-side-nav a:last-child {
         margin-right: 0!important

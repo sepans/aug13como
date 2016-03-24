@@ -1,3 +1,42 @@
+.zoj-img {
+    position: relative;
+     width: 555px;
+     margin: 0 auto;
+
+     border: 1px solid #888;
+     padding: 15px;
+
+}
+.zoj-img div {
+    width: 100%;
+    height: 260px;
+    background-image: url(../img/zojaj.jpg);
+    background-position: -28px -20px;
+    background-size: 600px auto;
+    -webkit-filter: sepia(0.3);
+    
+}
+
+.zoj-img div:before  {
+    content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom ,#002f4b,#dc4225);
+        opacity: .3; 
+  }
+
+.zoj-img div:after  {
+    content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border: 15px solid #FFF;
+  }  
 meta.foundation-version {
     font-family: "/5.3.1/"
 }

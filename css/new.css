@@ -6674,6 +6674,11 @@ nav.top-bar .logo-wrapper .logo a.logo-link {
     vertical-align: middle;
     margin: 0 1.5rem
 }
+nav.top-bar .logo-wrapper .logo a.logo-link span {
+    display: block;
+    font-size: 0.6em;
+    margin-top: -3.1em;
+}
 nav.top-bar .logo-wrapper .logo a.logo-link.small-version {
     display: none
 }
@@ -6873,7 +6878,7 @@ section.carousel .slick-slide .caption p.h1 {
     color: #fff;
     text-align: center;
     font-size: 2.31rem;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     margin-top: 1.95rem;
     line-height: 2.25rem
 }
@@ -6884,7 +6889,7 @@ section.carousel .slick-slide .caption p.h2 {
     color: #fff;
     text-align: center;
     font-size: .94rem;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     margin-top: 0;
     position: relative
 }
@@ -6906,12 +6911,12 @@ section.carousel .slick-dots {
         height: 44.5vw
     }
     section.carousel .slick-slide .caption p.h1 {
-        font-size: 1.5rem;
-        line-height: 5rem;
+        font-size: 1.8rem;
+        line-height: 3rem;
         margin-top: -.8rem
     }
     section.carousel .slick-slide .caption p.h2 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         margin-top: -5.85rem;
         margin-bottom: 4.45rem
     }

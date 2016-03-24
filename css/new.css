@@ -1447,7 +1447,8 @@ meta.foundation-mq-topbar {
 }
 .top-bar .toggle-topbar.menu-icon {
     top: 50%;
-    margin-top: -16px
+    margin-top: -16px;
+    display: none; /* temp */
 }
 .top-bar .toggle-topbar.menu-icon a {
     height: 34px;

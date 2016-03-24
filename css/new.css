@@ -6715,7 +6715,8 @@ nav.top-bar .logo-wrapper .logo a.logo-link {
 }
 nav.top-bar .logo-wrapper .logo a.logo-link span {
     display: block;
-    font-size: 0.6em;
+    font-size: 0.65em;
+    text-transform: none;
     margin-top: -3.1em;
 }
 nav.top-bar .logo-wrapper .logo a.logo-link.small-version {
@@ -6828,7 +6829,7 @@ nav.top-bar .logo-wrapper .logo a.logo-link.small-version {
         transition: all .2s ease
     }
     nav.top-bar .logo-wrapper .logo {
-        top: 3px
+        top: -2px
     }
     nav.top-bar .logo-wrapper .logo a {
         font-family: Baskerville, "Times New Roman", serif;
@@ -6950,12 +6951,12 @@ section.carousel .slick-dots {
         height: 44.5vw
     }
     section.carousel .slick-slide .caption p.h1 {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         line-height: 3rem;
         margin-top: -.8rem
     }
     section.carousel .slick-slide .caption p.h2 {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         margin-top: -5.85rem;
         margin-bottom: 4.45rem
     }

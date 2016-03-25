@@ -1,7 +1,8 @@
 .zoj-img {
     position: relative;
      width: 600px;
-     margin: 0 auto;
+    height: 380px;
+    margin: 0 auto;
 
      border: 1px solid #888;
      padding: 5px;
@@ -9,10 +10,10 @@
 }
 .zoj-img div {
     width: 100%;
-    height: 380px;
+    height: 100%;
     background-image: url(../img/both.jpg);
     background-position: 0px 0px;
-    background-size: 600px auto;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     -webkit-filter: sepia(0.3);
     
@@ -2161,6 +2162,11 @@ meta.foundation-mq-topbar {
     text-align: justify!important
 }
 @media only screen and (max-width: 40em) {
+    .zoj-img {
+    
+        width: 95%;
+        height: 200px;
+    }
     .small-only-text-left {
         text-align: left!important
     }

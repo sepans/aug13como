@@ -6732,8 +6732,12 @@ nav.top-bar .logo-wrapper .logo a.logo-link.small-version {
 }
 @media only screen and (max-width: 40em) {
     nav.top-bar .logo-wrapper .logo {
+        /*
         text-align: left;
-        width: auto
+        width: auto;
+        */
+        text-align: center; /* temp: to center align title after removing menu */;
+        width: 100%;
     }
     nav.top-bar .logo-wrapper .logo a.logo-link {
         display: none

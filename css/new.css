@@ -38,7 +38,10 @@
         bottom: 0;
         left: 0;
         border: 5px solid #FFF;
-  }  
+  } 
+
+
+
 meta.foundation-version {
     font-family: "/5.3.1/"
 }
@@ -7573,11 +7576,12 @@ section.map img {
     height: auto
 }
 .hotel-box h3 {
-    font-family: Baskerville, "Times New Roman", serif;
+    font-family: Montserrat,Arial;
     color: #232321;
     font-size: 1.5rem;
     text-transform: uppercase;
-    line-height: 2.2rem
+    line-height: 2.2rem;
+    font-style: normal;
 }
 .hotel-box p {
     color: #232321
@@ -7587,9 +7591,15 @@ section.map img {
     padding: 1.188rem 0 1.813rem
 }
 .hotel-box p.details a {
+    /*
     font-size: .813rem;
+    
     font-family: Baskerville, "Times New Roman", serif;
     text-transform: uppercase
+    */
+    display: inline-block;
+    margin: 8px auto;
+    font-size: .95rem;
 }
 .hotel-box span.address {
     color: #898989
@@ -7707,6 +7717,8 @@ section.contact span.error {
     padding-top: .6rem;
     background-color: #FD4040
 }
+
+
 @media only screen and (max-width: 40em) {
     section.contact .step1>div.row:first-child,
     section.contact .step2>div.row:first-child {

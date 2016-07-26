@@ -2,10 +2,10 @@
     position: relative;
      width: 600px;
     height: 380px;
-    margin: 0 auto;
+    margin: 3rem auto;
 
-     border: 1px solid #888;
-     padding: 5px;
+    border: 1px solid #888;
+    padding: 5px;
 
 }
 .zoj-img div {
@@ -41,6 +41,25 @@
   } 
 
 
+section:after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #ccc;
+    position: absolute;
+    left: calc(50% - 40px);
+    margin-top: 1.1rem;
+
+}
+
+section:first-of-type:after, section:last-of-type:after  {
+    display: none;
+}
+
+section {
+    margin: 2rem 0;
+}
 
 meta.foundation-version {
     font-family: "/5.3.1/"
@@ -6706,7 +6725,7 @@ nav.top-bar .logo-wrapper .logo {
 }
 .left-side-nav,
 .right-side-nav {
-    display: none
+    /*display: none*/
 }
 nav.top-bar .logo-wrapper {
     width: 100%
@@ -6725,10 +6744,14 @@ nav.top-bar .logo-wrapper .logo a.logo-link {
     margin: 0 1.5rem
 }
 nav.top-bar .logo-wrapper .logo a.logo-link span {
-    display: block;
+    /*display: block;*/
     font-size: 0.65em;
     text-transform: none;
     margin-top: -3.1em;
+
+    position: absolute;
+    left: 45%;
+    top: 75px;    
 }
 nav.top-bar .logo-wrapper .logo a.logo-link.small-version {
     display: none
@@ -6754,7 +6777,7 @@ nav.top-bar .logo-wrapper .logo a.logo-link.small-version {
         display: inline-block;
         text-align: right;
 
-        display: none; /* temp */
+        /*display: none;  temp */
 
     }
     .left-side-nav a:first-child {
@@ -6764,7 +6787,7 @@ nav.top-bar .logo-wrapper .logo a.logo-link.small-version {
         display: inline-block;
         text-align: left;
 
-        display: none; /* temp */
+        /*display: none;  temp */
 
     }
     .right-side-nav a:last-child {
@@ -6943,8 +6966,8 @@ section.carousel .slick-slide .caption p.h2 {
     font-style: italic;
     color: #fff;
     text-align: center;
-    font-size: .94rem;
     /*text-transform: uppercase;*/
+    font-size: 2rem;
     margin-top: 0;
     position: relative
 }
@@ -6971,7 +6994,7 @@ section.carousel .slick-dots {
         margin-top: -.8rem
     }
     section.carousel .slick-slide .caption p.h2 {
-        font-size: 1.2rem;
+        font-size: 2rem;
         margin-top: -5.85rem;
         margin-bottom: 4.45rem
     }
@@ -7170,7 +7193,7 @@ section.carousel .slick-dots {
         font-size: 2.875rem;
         margin-bottom: 2.6rem;
         padding: 0 6.8rem;
-        margin-top: 5rem;
+        /*margin-top: 5rem;*/
         line-height: 3.65rem
     }
     .copy h1 {
@@ -8003,7 +8026,8 @@ footer .social .fa-instagram {
 
 
     nav.top-bar .logo-wrapper .logo a.logo-link span {
+       top: 90px;
     
-    margin-top: -4.1em;
+    /*margin-top: -4.1em;*/
     }
 }

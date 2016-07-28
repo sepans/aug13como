@@ -7279,7 +7279,7 @@ section.carousel .slick-dots {
     text-transform: uppercase;
     margin-bottom: .625rem
 }
-.copy.schedule h2 {
+.copy.schedule h2, .map .h2 {
     text-align: center;
     font-family: Baskerville, "Times New Roman", serif;
     font-size: 1.5rem;
@@ -7287,6 +7287,17 @@ section.carousel .slick-dots {
     color: #232321;
     margin-bottom: .875rem
 }
+
+.map .line-1 {
+    padding: 0.5em;
+    text-align: center;
+}
+
+.pages .copy {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
 .copy.schedule p.abstract {
     margin-bottom: 3.875rem
 }
@@ -7300,6 +7311,12 @@ section.carousel .slick-dots {
     left: calc(50% - 27.5px);
     margin-top: 2rem
 }
+
+.schedule-copy p strong {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
 .copy.schedule .schedule-copy p:last-child {
     margin-bottom: 0
 }
